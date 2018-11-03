@@ -1,0 +1,449 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+/*  border: 1px solid black;*/
+
+}
+
+/*----------------------------Navigation Bar---------------------------------*/
+
+#navbar{
+  background: #161616;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  z-index: 1000;
+  position: fixed;
+  margin-bottom:50px;
+}
+
+.nav-item{
+	padding: 10px 10px 0 10px;
+  color: #ebebeb;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+  color: grey;
+  border-bottom: 1px solid white;
+}
+
+.navbar-nav li {
+    box-sizing: border-box;
+    height: 50px;
+}
+
+/*---------------------------------------------------End of Navigation Bar*/
+
+/*-------------------------- Title Section----------------------------------*/
+.header-title{
+  font-weight: 100;
+  font-size: 100px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img[alt*="right-side-photo"]{
+    width: 100%;
+    height: 295px;
+    object-fit: cover;
+}
+img[alt*="main-photo"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img[alt*="ind"]{
+    margin:80px 0 20px 0;
+}
+
+/*------------------------------------------------end of Title Section */
+
+/*-------------------------- Main Section----------------------------------*/
+.title{
+  margin-top: 30px;
+}
+
+hr{
+  size: 30px;
+}
+
+.category{
+  font-size: 14px;
+  background:white;
+  padding:5px;
+  color:black;
+  margin: 20px;
+}
+.overlay {
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    max-width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    pointer-events: none;
+}
+
+h2 a{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.inner-right-top, .inner-right-bottom,.outer-left{
+  position: relative;
+}
+
+div > a{
+  color: #c0a88a;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .15em;
+}
+
+
+.popular-topic, .popular-topic:hover, .popular-topic:visited, .popular-topic:link{
+  color:black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 10px;  
+}
+img[alt*="topic-photo"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img[alt*="sub-topic-photo"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.btn{
+  border:2px solid #161616;
+  background-color: transparent;
+  padding: 10px 15px 10px 15px;
+  border-radius: 0;
+  margin: 10px 10px 30px 10px;
+
+}
+
+input, #username, #email, #contact,#message{
+  border: 2px solid black;
+  background-color: transparent;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);  
+  border-radius: 0;
+}
+
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+.side-about-link{
+  color: black;
+  font-size: 14px;
+  padding-top: 0;
+}
+
+.side-title{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 10px 10px 10px 10px;
+}
+
+img[alt*="side-photo-about"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fab{
+  padding: 10px;
+}
+
+.side-content{
+  padding-right:0; 
+  padding-left:10px;
+}
+
+.list-item{
+  list-style: none;
+  color: #c0a88a;
+}
+
+.sub-topic-photo{
+  margin: 10px;
+}
+
+/*footer*/
+img[alt*="instagram-photos"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.foot{
+  background-color: black;
+  padding: 20px;
+  margin: 0;
+}
+
+.list-item-social{
+  color:white;
+  letter-spacing: .6em;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.back-to-top{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+li{
+  list-style: none;
+}
+
+li > a{
+  color:grey;
+}
+
+.footer-head{
+  color: white;
+}
+
+.disclaimer-text{
+  color: grey;
+}
+
+
+
+/*------------------------------------------------end of Main Section*/
+
+
+
+/*--------------------------Home Page----------------------------------*/
+
+
+/*------------------------------------------------end of Home Page*/
+
+
+/*--------------------------Lifestyle----------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+ 
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+
+.card {
+    display: block; 
+    margin: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-card {
+  width: 100%;
+  height:400px;
+  
+  display:block;
+  overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 400px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 500;
+  font-size: 1.20em;
+  height: 95px;
+
+
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+  font-family: 'Varela Round', sans-serif;
+}
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+  padding: 10px;
+}
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+
+}
+
+h4 ~ a{
+  font-size: 14px;
+  color: grey;
+  font-weight: 5px;
+}
+/*--------------------------Travel----------------------end of */
+img[alt*="t-photo"]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+#ytd{
+  width: 100%; 
+  height: 500px;
+  object-fit: cover;
+}
+
+.left-t-photo{
+  margin-bottom: 5px;
+}
+
+
+
+#thumb-travel{
+  width: 15rem;
+  margin: 10px;
+  padding: 0;
+}
+#card-body-travel{
+  padding: .8rem;
+}
+}
+
+
+/*-------------------------- ----------------------------------*/
+
+
+/*-------------------------- ----------------------end of */
+
+/*-------------------------- ----------------------------------*/
+
+
+/*-------------------------- ----------------------end of */
+
+/*-------------------------- ----------------------------------*/
+
+
+/*-------------------------- ----------------------end of */
+
+
+/*MEDIA QUERIES*/
+
+/*DESKTOP*/
+@media only screen and (min-width: 961px){
+
+
+}
+
+
+
+
+
+/*TABLET*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+ img[alt*="main-photo"]{
+  width: 100%;
+ }
+  img[alt*="right-side-photo"]{
+  width: 100%;
+ }
+  .popular-image-div{
+    text-align: center;  
+ }
+
+ #thumb-travel{
+  width: 14rem;
+  margin: 10px;
+  padding: 0;
+}
+
+#life{
+    display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+
+}
+}
+
+
+
+
+/*Phone*/
+@media only screen and (max-width: 400px){
+
+   img[alt*="right-side-photo"]{
+    width: 100%;
+ }
+ iframe{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+}
